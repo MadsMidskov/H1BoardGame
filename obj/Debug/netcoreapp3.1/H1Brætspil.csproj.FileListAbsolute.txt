@@ -1,0 +1,13 @@
+C:\Users\madsm\source\repos\H1Brætspil\obj\Debug\netcoreapp3.1\H1Brætspil.csprojAssemblyReference.cache
+C:\Users\madsm\source\repos\H1Brætspil\obj\Debug\netcoreapp3.1\H1Brætspil.AssemblyInfoInputs.cache
+C:\Users\madsm\source\repos\H1Brætspil\obj\Debug\netcoreapp3.1\H1Brætspil.AssemblyInfo.cs
+C:\Users\madsm\source\repos\H1Brætspil\obj\Debug\netcoreapp3.1\H1Brætspil.csproj.CoreCompileInputs.cache
+C:\Users\madsm\source\repos\H1Brætspil\bin\Debug\netcoreapp3.1\H1Brætspil.exe
+C:\Users\madsm\source\repos\H1Brætspil\bin\Debug\netcoreapp3.1\H1Brætspil.deps.json
+C:\Users\madsm\source\repos\H1Brætspil\bin\Debug\netcoreapp3.1\H1Brætspil.runtimeconfig.json
+C:\Users\madsm\source\repos\H1Brætspil\bin\Debug\netcoreapp3.1\H1Brætspil.runtimeconfig.dev.json
+C:\Users\madsm\source\repos\H1Brætspil\bin\Debug\netcoreapp3.1\H1Brætspil.dll
+C:\Users\madsm\source\repos\H1Brætspil\bin\Debug\netcoreapp3.1\H1Brætspil.pdb
+C:\Users\madsm\source\repos\H1Brætspil\obj\Debug\netcoreapp3.1\H1Brætspil.dll
+C:\Users\madsm\source\repos\H1Brætspil\obj\Debug\netcoreapp3.1\H1Brætspil.pdb
+C:\Users\madsm\source\repos\H1Brætspil\obj\Debug\netcoreapp3.1\H1Brætspil.genruntimeconfig.cache
