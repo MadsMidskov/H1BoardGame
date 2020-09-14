@@ -1,11 +1,13 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace H1Brætspil
 {
-    class Program
+    class PlayGame
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+
             int P1Plads = 0;
             int P2Plads = 0;
 
@@ -29,7 +31,9 @@ namespace H1Brætspil
             //man kan lave en ny terning som man ser inde i while løkken
             Random rnd = new Random();
 
-            //hvis DinPlads er mindre en 150 som er målet skal den slå med terningen og lægge TerningsKast til DinPlads
+
+
+            //hvis DinPlads er mindre en 150 som er målet skal den slå med terningen og lægge TerningsKast til spillernes plads
             while (P1Plads < MålTal && P2Plads < MålTal)
             {
                 int P1TerningKast = rnd.Next(1, 7);
@@ -38,6 +42,12 @@ namespace H1Brætspil
                 P1Plads = P1Plads + P1TerningKast;
 
                 P2Plads = P2Plads + P2TerningKast;
+
+                private void Pladser()
+                {
+
+                }
+
 
                 //hvis din plads er over målet og din plads er større modstanderns har du vundet
                 if (P1Plads >= MålTal && P2Plads < MålTal)

@@ -4,12 +4,11 @@ using System.Text;
 
 namespace H1Brætspil
 {
-    class Player
+    public class Player
     {
-
-        //klassens members
-
-        //en field der hedder name, så man kan skrive sit eget navn som player
-        public string name = Console.ReadLine(); 
+            public string name = Console.ReadLine();
+        
     }
 }
+
+
