@@ -31,7 +31,7 @@ namespace H1Brætspil
             //man kan lave en ny terning som man ser inde i while løkken
             Random rnd = new Random();
 
-
+            string P1Win = " Tillykke {Player1.name}! Du vandt!";
 
             //hvis DinPlads er mindre en 150 som er målet skal den slå med terningen og lægge TerningsKast til spillernes plads
             while (P1Plads < MålTal && P2Plads < MålTal)
@@ -43,17 +43,12 @@ namespace H1Brætspil
 
                 P2Plads = P2Plads + P2TerningKast;
 
-                private void Pladser()
-                {
-
-                }
-
 
                 //hvis din plads er over målet og din plads er større modstanderns har du vundet
                 if (P1Plads >= MålTal && P2Plads < MålTal)
                 {
                     Console.WriteLine(" ");
-                    Console.WriteLine($" Tillykke {Player1.name}! Du vandt!");
+                    Console.WriteLine(P1Win);
                     Console.WriteLine(Player1.name + " din plads er " + P1Plads + " du slog " + P1TerningKast);
                     Console.WriteLine(Player2.name + " din plads er " + P2Plads + " du slog " + P2TerningKast);
 
